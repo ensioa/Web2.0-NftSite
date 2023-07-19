@@ -1,0 +1,472 @@
+>>>2023-05-16 00:21:56
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684167715项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+1.正在生成第1个作品
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684167715-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入4条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('646258a8ed340455a8eb01e7'), 'name': 'asdfasd #001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [4080, 4380, 4680, 4980, 4680, 4980, 4680, 4980, 4680, 4980, 4680, 4380, 4080, 3780, 3480, 3180, 2880, 3180, 3480, 3780, 3480, 3780, 3480, 3180, 2880, 2580, 2880, 2580, 2880, 2580], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01e8'), 'name': 'asdfasd #002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [736, 1036, 1336, 1036, 1336, 1636, 1336, 1036, 736, 1036, 1336, 1636, 1936, 1636, 1936, 2236, 2536, 2236, 2536, 2836, 2536, 2236, 2536, 2236, 1936, 2236, 2536, 2236, 1936, 1636], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01e9'), 'name': 'asdfasd #003', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/3.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [2795, 3095, 2795, 2495, 2195, 2495, 2195, 1895, 1595, 1895, 1595, 1295, 1595, 1295, 1595, 1295, 995, 695, 395, 695, 995, 695, 995, 1295, 1595, 1895, 1595, 1895, 2195, 2495], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ea'), 'name': 'asdfasd #004', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/4.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [1306, 1606, 1306, 1606, 1906, 1606, 1306, 1006, 706, 406, 706, 406, 706, 1006, 1306, 1606, 1906, 2206, 2506, 2806, 3106, 2806, 2506, 2806, 2506, 2206, 2506, 2206, 1906, 2206], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01eb'), 'name': 'asdfasd #005', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/5.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [2791, 3091, 2791, 3091, 2791, 2491, 2791, 3091, 2791, 2491, 2191, 1891, 2191, 2491, 2791, 2491, 2191, 1891, 2191, 1891, 1591, 1291, 1591, 1291, 1591, 1291, 1591, 1891, 1591, 1291], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ec'), 'name': 'asdfasd #006', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/6.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [483, 783, 483, 783, 1083, 1383, 1083, 1383, 1083, 783, 483, 783, 1083, 783, 483, 783, 1083, 783, 483, 783, 483, 783, 1083, 783, 1083, 783, 1083, 1383, 1683, 1383], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ed'), 'name': 'asdfasd #007', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/7.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [4096, 4396, 4696, 4396, 4096, 3796, 4096, 4396, 4696, 4396, 4096, 3796, 3496, 3196, 3496, 3796, 4096, 4396, 4096, 3796, 4096, 3796, 3496, 3796, 3496, 3796, 4096, 3796, 4096, 4396], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ee'), 'name': 'asdfasd #008', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/8.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [4616, 4916, 5216, 4916, 4616, 4916, 4616, 4916, 4616, 4916, 5216, 4916, 5216, 4916, 5216, 4916, 4616, 4316, 4016, 4316, 4616, 4916, 4616, 4916, 5216, 4916, 4616, 4916, 4616, 4316], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ef'), 'name': 'asdfasd #009', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/9.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [914, 1214, 1514, 1214, 914, 614, 314, 614, 314, 614, 914, 1214, 1514, 1214, 914, 1214, 1514, 1814, 1514, 1814, 2114, 1814, 1514, 1814, 1514, 1814, 1514, 1214, 914, 614], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01f0'), 'name': 'asdfasd #0010', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/10.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [3291, 2991, 2691, 2991, 2691, 2991, 3291, 2991, 2691, 2991, 3291, 2991, 3291, 2991, 3291, 2991, 2691, 2991, 2691, 2391, 2691, 2391, 2691, 2391, 2091, 1791, 2091, 2391, 2691, 2991], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e491'), 'name': '派大星#001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167475-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22, 'introduce': '是的是的是的是的', 'nowPrice': [4665, 2375, 2815, 433, 478, 1552, 4678, 2778, 3333, 4953, 3552, 4672, 3749, 1295, 1398, 1261, 3805, 2176, 1432, 2210, 3642, 2444, 22, 4755, 2201, 3122, 1393, 3764, 644, 1367], 'config': {'starts': 22, 'end': 5022, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:20:49', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e492'), 'name': '派大星#002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167475-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22, 'introduce': '是的是的是的是的', 'nowPrice': [1269, 5247, 3600, 3995, 2219, -168, 4492, 2916, 1049, 4339, 541, 4012, 25, 4752, 1652, 2527, 574, -38, 1270, 1622, 840, 2136, 530, 4412, 1684, 1220, 3968, 2561, 4479, 3163], 'config': {'starts': 22, 'end': 5022, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:20:49', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4a'), 'name': '测试名字#001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [38418, 38147, 33879, 35069, 33315, 36125, 34795, 36466, 35345, 35634, 33664, 38084, 37994, 36524, 34519, 34236, 34296, 35570, 34971, 37300, 36955, 35339, 35545, 35708, 34833, 35452, 38077, 36600, 35129, 33590], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4b'), 'name': '测试名字#002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [34816, 33438, 36335, 35327, 33189, 37135, 36632, 35935, 36060, 34473, 33040, 34294, 33419, 34548, 33560, 34696, 38550, 34281, 38468, 36344, 38277, 34404, 38450, 38291, 36669, 36813, 34943, 37753, 35849, 33794], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4c'), 'name': '测试名字#003', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/3.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [37459, 36247, 37306, 34368, 36077, 35970, 38485, 37825, 33932, 34027, 38068, 34307, 36871, 34786, 38548, 34557, 35437, 36516, 36455, 34859, 33507, 33902, 33448, 33329, 34565, 34368, 34304, 35654, 33230, 34434], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4d'), 'name': '测试名字#004', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/4.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [34345, 36046, 36252, 38459, 33984, 35704, 34592, 37597, 34267, 34702, 35272, 38408, 34639, 35820, 35896, 35535, 37660, 36549, 35794, 38016, 37446, 38105, 34734, 36912, 35517, 38188, 35439, 36150, 37783, 36230], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.2823917865753174s
+2023-05-16 00:21:56
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+>>>2023-05-16 00:29:10
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684168149项目:
+当前用户选择生成【单系列】作品
+正在生成男人-2系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+1.正在生成第1个作品
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684168149-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb359'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684168149-output/1.png', 'nowPrice': [26282, 23319, 21983, 23131, 22760, 24118, 25733, 25084, 25393, 25986, 24427, 25539, 24441, 25617, 27256, 25587, 24785, 25564, 24790, 24890, 26640, 24062, 24513, 24875, 25033, 22204, 22723, 27102, 26918, 26216], 'quantity': 2, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入4条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('646258a8ed340455a8eb01e7'), 'name': 'asdfasd #001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [3480, 3180, 2880, 2580, 2880, 2580, 2280, 2580, 2280, 1980, 1680, 1980, 1680, 1380, 1080, 780, 480, 780, 1080, 1380, 1680, 1380, 1080, 1380, 1080, 780, 1080, 780, 1080, 1380], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01e8'), 'name': 'asdfasd #002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [1336, 1036, 736, 1036, 736, 1036, 736, 436, 736, 436, 736, 1036, 736, 436, 736, 1036, 1336, 1636, 1936, 2236, 2536, 2236, 1936, 1636, 1936, 2236, 1936, 1636, 1336, 1636], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01e9'), 'name': 'asdfasd #003', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/3.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [2195, 2495, 2795, 2495, 2195, 1895, 1595, 1895, 1595, 1895, 1595, 1295, 1595, 1895, 1595, 1895, 2195, 1895, 1595, 1295, 1595, 1895, 2195, 1895, 2195, 2495, 2795, 2495, 2195, 1895], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ea'), 'name': 'asdfasd #004', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/4.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [4306, 4006, 3706, 3406, 3106, 3406, 3106, 2806, 3106, 2806, 3106, 3406, 3706, 4006, 4306, 4606, 4906, 5206, 4906, 5206, 4906, 5206, 4906, 5206, 4906, 4606, 4906, 4606, 4906, 5206], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01eb'), 'name': 'asdfasd #005', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/5.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [1591, 1291, 1591, 1291, 1591, 1291, 1591, 1891, 1591, 1891, 2191, 2491, 2191, 2491, 2791, 3091, 2791, 2491, 2191, 2491, 2791, 2491, 2791, 2491, 2791, 2491, 2191, 1891, 2191, 1891], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ec'), 'name': 'asdfasd #006', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/6.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [1083, 783, 1083, 783, 1083, 783, 483, 783, 483, 783, 1083, 783, 1083, 783, 483, 783, 483, 783, 483, 783, 483, 783, 483, 783, 1083, 783, 483, 783, 1083, 1383], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ed'), 'name': 'asdfasd #007', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/7.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [3496, 3196, 3496, 3796, 3496, 3196, 3496, 3796, 4096, 4396, 4096, 3796, 4096, 4396, 4696, 4396, 4696, 4396, 4696, 4996, 4696, 4996, 4696, 4996, 4696, 4396, 4696, 4996, 4696, 4396], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ee'), 'name': 'asdfasd #008', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/8.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [5216, 4916, 4616, 4916, 5216, 4916, 4616, 4316, 4616, 4316, 4616, 4316, 4616, 4916, 5216, 4916, 4616, 4316, 4016, 3716, 3416, 3716, 4016, 3716, 3416, 3716, 4016, 4316, 4616, 4316], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01ef'), 'name': 'asdfasd #009', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/9.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [1514, 1814, 1514, 1214, 914, 614, 914, 1214, 1514, 1214, 1514, 1814, 1514, 1814, 2114, 2414, 2714, 2414, 2114, 2414, 2714, 3014, 3314, 3014, 2714, 3014, 2714, 2414, 2714, 2414], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('646258a8ed340455a8eb01f0'), 'name': 'asdfasd #0010', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684165793-output/10.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 222, 'introduce': 'sadg', 'nowPrice': [2091, 2391, 2091, 2391, 2691, 2391, 2091, 2391, 2691, 2391, 2091, 1791, 2091, 2391, 2691, 2991, 2691, 2991, 3291, 3591, 3291, 3591, 3891, 3591, 3291, 2991, 2691, 2391, 2691, 2391], 'config': {'starts': 222, 'end': 5222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:07:04', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e491'), 'name': '派大星#001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167475-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22, 'introduce': '是的是的是的是的', 'nowPrice': [2267, 1967, 1667, 1367, 1667, 1967, 1667, 1967, 1667, 1967, 2267, 1967, 1667, 1367, 1667, 1367, 1667, 1967, 1667, 1967, 1667, 1367, 1667, 1367, 1667, 1967, 1667, 1367, 1667, 1367], 'config': {'starts': 22, 'end': 5022, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:20:49', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e492'), 'name': '派大星#002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167475-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22, 'introduce': '是的是的是的是的', 'nowPrice': [2863, 2563, 2263, 2563, 2263, 1963, 2263, 2563, 2263, 1963, 1663, 1363, 1063, 1363, 1063, 763, 463, 163, 463, 163, 463, 163, 463, 163, 463, 763, 463, 763, 1063, 1363], 'config': {'starts': 22, 'end': 5022, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:20:49', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4a'), 'name': '测试名字#001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [34490, 34790, 34490, 34790, 35090, 34790, 35090, 34790, 34490, 34790, 34490, 34190, 33890, 33590, 33890, 34190, 34490, 34190, 33890, 33590, 33890, 33590, 33890, 34190, 33890, 34190, 34490, 34190, 34490, 34790], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4b'), 'name': '测试名字#002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [35294, 34994, 34694, 34394, 34694, 34394, 34694, 34394, 34694, 34994, 34694, 34394, 34094, 33794, 33494, 33794, 34094, 33794, 34094, 34394, 34094, 33794, 33494, 33794, 33494, 33794, 34094, 33794, 33494, 33794], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4c'), 'name': '测试名字#003', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/3.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [34734, 35034, 35334, 35034, 34734, 34434, 34734, 34434, 34134, 33834, 34134, 33834, 33534, 33834, 33534, 33834, 33534, 33834, 33534, 33834, 33534, 33834, 33534, 33834, 34134, 34434, 34734, 34434, 34734, 34434], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e4d'), 'name': '测试名字#004', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684167715-output/4.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 33334, 'introduce': '阿斯顿发生过', 'nowPrice': [34730, 34430, 34130, 33830, 34130, 33830, 34130, 33830, 34130, 34430, 34130, 34430, 34130, 34430, 34730, 34430, 34730, 35030, 34730, 35030, 34730, 34430, 34730, 35030, 35330, 35630, 35930, 35630, 35930, 35630], 'config': {'starts': 33334, 'end': 38334, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:21:56', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb35a'), 'name': '糯米粥#001', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684168149-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22222, 'introduce': '阿斯顿发个', 'nowPrice': [23567, 25403, 25969, 23578, 25221, 27149, 23198, 23793, 25119, 23275, 22334, 22469, 27289, 25387, 25326, 25038, 25667, 23897, 26989, 24334, 23633, 22542, 23262, 27323, 25862, 23455, 25584, 26702, 23986, 24615], 'config': {'starts': 22222, 'end': 27222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:29:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb35b'), 'name': '糯米粥#002', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684168149-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 22222, 'introduce': '阿斯顿发个', 'nowPrice': [24519, 23068, 22964, 23481, 21986, 25539, 27419, 23958, 25773, 26114, 23242, 25644, 24140, 25627, 27060, 24414, 22863, 25488, 26164, 23415, 25574, 24940, 26096, 22691, 22384, 24544, 23259, 25924, 25598, 24461], 'config': {'starts': 22222, 'end': 27222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:29:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb35c'), 'name': '糯米粥#003', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684168149-output/3.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 22222, 'introduce': '阿斯顿发个', 'nowPrice': [23910, 23840, 26292, 23865, 24475, 24840, 24333, 24910, 23998, 25276, 25163, 22456, 24427, 25654, 26030, 22924, 22922, 26869, 25587, 23651, 24409, 25868, 24335, 24141, 26947, 23048, 25530, 24125, 24780, 23575], 'config': {'starts': 22222, 'end': 27222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:29:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb35d'), 'name': '糯米粥#004', 'imgUrl': 'http://www.fortis.ink/static/upload/output/1684168149-output/4.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 22222, 'introduce': '阿斯顿发个', 'nowPrice': [25095, 26903, 26588, 24224, 23951, 23443, 22403, 26064, 23832, 26605, 24062, 22571, 24048, 26666, 25846, 24620, 26555, 26614, 22335, 25047, 25359, 23664, 22697, 24944, 27241, 25148, 27213, 23991, 24196, 22574], 'config': {'starts': 22222, 'end': 27222, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:29:11', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.2884187698364258s
+2023-05-16 00:29:11
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+>>>2023-05-16 00:35:11
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684168510项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：4
+>>>开始生成..
+1.正在生成第1个作品
+2.正在生成第2个作品
+3.正在生成第3个作品
+4.正在生成第4个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684168510-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb359'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684168149-output/1.png', 'nowPrice': [26282, 23319, 21983, 23131, 22760, 24118, 25733, 25084, 25393, 25986, 24427, 25539, 24441, 25617, 27256, 25587, 24785, 25564, 24790, 24890, 26640, 24062, 24513, 24875, 25033, 22204, 22723, 27102, 26918, 26216], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c95'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510/1.png', 'nowPrice': [4665, 3243, 3842, 1068, 4416, 5325, 2337, 5217, 1920, 2032, 185, 2248, 1023, 3184, 1218, 3776, 2682, 227, 571, 4623, 4437, 2870, 2346, 149, 4707, 4048, 4221, 3462, 1871, 3603], 'quantity': 4, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入12条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('64625f3f55b70cf7d9de0c96'), 'name': '1#001', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [4831, 4132, 3322, 3453, 1132, 3054, 4008, 1589, 802, 1081, 3569, 4417, 1116, 1921, 1835, 1956, 2459, 2509, 1553, 3062, 1360, 506, 5044, 3179, 1641, 1719, 1041, 4126, 3337, 153], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c97'), 'name': '1#002', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [5172, 5286, 740, 3191, 2789, 3129, 208, 1868, 1108, 820, -159, 5273, 1084, 3122, 3782, 694, 1270, 5020, 1176, 2098, 3256, 4886, 1820, 2469, 4708, 1676, 3537, 3611, 947, 2685], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c98'), 'name': '1#003', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/3.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [1516, 5112, 4804, 5083, 4725, 3926, 3670, 237, 4083, 3919, 2220, 1753, 2955, 4956, 507, 4492, 4927, 3683, 999, 3459, 2542, 2611, 1111, 4817, -58, 1261, 2095, 3322, 4545, 576], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c99'), 'name': '1#004', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/4.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [3434, 1250, 3532, 3621, 2755, 1108, 2420, 1746, 1990, 5348, 930, 4089, 5244, -169, 2221, 3210, 1708, 5281, 4895, -81, 5060, 3867, 3231, 1428, 242, 5137, 1031, 1423, 5113, 4302], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9a'), 'name': '1#005', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/5.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [1469, 1752, 1085, 362, 1406, 3579, 2346, 3061, 227, 441, -82, 674, 3926, 1781, 5236, 3701, 1023, 5247, 3659, 2491, 1006, 2660, 2780, 4071, 926, 2630, 3193, 3642, 4282, 3786], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9b'), 'name': '1#006', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/6.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [3276, 3803, 287, 5280, 2953, 1677, 280, 2162, 2992, 367, 2465, 1564, 441, 796, 4311, 5187, 3324, 2320, 4330, 4151, 3407, 1514, 2029, 3922, 3593, 3634, 3846, 254, 1706, 3065], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9c'), 'name': '1#007', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/7.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [1627, 911, 4229, 1869, 999, 3787, 3451, 2857, -44, 503, 4819, 4949, 2820, 1764, 3008, 2819, 3684, 1335, 720, 2009, 1269, 4159, 5311, 2269, 3367, 3479, 268, 4554, 3705, 4266], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9d'), 'name': '1#008', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/8.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [3794, 1556, 2045, 5353, 2803, 2182, 4518, 5288, 2451, -62, 5051, 1931, 1359, 2606, 611, 828, 1613, 4971, 638, 756, 3127, 4323, 3468, 2925, 1819, 3993, 1709, 5049, 4944, 5100], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9e'), 'name': '1#009', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/9.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [2284, 1387, 4660, 1523, 3455, 2973, 4342, 5271, 4056, 4507, 3336, 1884, 5347, 1323, 1052, 1730, -182, 3074, 4065, 5140, 1065, 2994, 1720, 4375, 3892, 3326, 4971, -158, 524, 4511], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c9f'), 'name': '1#0010', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/10.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [756, 4458, 294, 4927, 3879, 157, 513, 2297, 2542, 2783, 3509, 5212, 932, 4590, 4753, 5110, 1852, 3421, 4866, 1162, 4307, 1308, 2565, 4244, 5116, 1811, 5228, 2871, 4546, -70], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0ca0'), 'name': '1#0011', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/11.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [1982, 1966, 2612, 2794, 152, -179, 1906, 460, 4575, 3391, 2982, 918, 3180, 439, -70, 1850, 4650, 3084, 2235, 4173, 4341, -28, 4311, 282, -119, 5283, 1818, 3817, 381, 12], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0ca1'), 'name': '1#0012', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510-output/12.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 111, 'introduce': '11111111', 'nowPrice': [3636, -38, 3182, 3701, 2138, 2310, 1873, 3759, 829, 4090, 2072, 339, 367, 2617, 3200, 2412, 5082, 396, -158, 684, -88, 4100, 3151, 4918, 4701, 76, 2927, 2817, 2705, 1232], 'config': {'starts': 111, 'end': 5111, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:35:11', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.5017495155334473s
+2023-05-16 00:35:11
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+>>>2023-05-16 00:38:22
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684168701项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：1
+>>>开始生成..
+1.正在生成第1个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684168701-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>2023-05-16 00:41:31
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684168891项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：5
+>>>开始生成..
+-----------------------------------
+../static/upload/1684168891-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+../static/upload/1684168891-output/
+-----------------------------------
+2.正在生成第2个作品
+-----------------------------------
+../static/upload/1684168891-output/
+-----------------------------------
+3.正在生成第3个作品
+-----------------------------------
+../static/upload/1684168891-output/
+-----------------------------------
+4.正在生成第4个作品
+-----------------------------------
+../static/upload/1684168891-output/
+-----------------------------------
+5.正在生成第5个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684168891-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>2023-05-16 00:43:57
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684169036项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：5
+>>>开始生成..
+-----------------------------------
+../static/upload/1684169036-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+../static/upload/1684169036-output/
+-----------------------------------
+2.正在生成第2个作品
+-----------------------------------
+../static/upload/1684169036-output/
+-----------------------------------
+3.正在生成第3个作品
+-----------------------------------
+../static/upload/1684169036-output/
+-----------------------------------
+4.正在生成第4个作品
+-----------------------------------
+../static/upload/1684169036-output/
+-----------------------------------
+5.正在生成第5个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684169036-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb359'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684168149-output/1.png', 'nowPrice': [26282, 23319, 21983, 23131, 22760, 24118, 25733, 25084, 25393, 25986, 24427, 25539, 24441, 25617, 27256, 25587, 24785, 25564, 24790, 24890, 26640, 24062, 24513, 24875, 25033, 22204, 22723, 27102, 26918, 26216], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c95'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510/1.png', 'nowPrice': [4665, 3243, 3842, 1068, 4416, 5325, 2337, 5217, 1920, 2032, 185, 2248, 1023, 3184, 1218, 3776, 2682, 227, 571, 4623, 4437, 2870, 2346, 149, 4707, 4048, 4221, 3462, 1871, 3603], 'quantity': 4, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fdb'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036/1.png', 'nowPrice': [2619, 3729, 2818, -136, 5142, 4165, -277, 4257, 4270, 1959, 4189, 5223, 3790, 4952, 4488, 1771, 1327, 1807, 4680, 4885, 1024, 857, 3788, 2188, 4, 1127, 786, 3381, 2979, 284], 'quantity': 5, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入20条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('6462614e7baa1e28e24f7fdc'), 'name': '001#001', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [4337, 1128, 557, 3298, 3860, 2520, 831, 1492, 1808, 3813, 4540, 3899, 4425, 67, 590, 3119, 987, 405, 249, 2533, 4054, 4159, 4632, 1386, 4860, 4518, 3002, 284, 3700, 2953], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fdd'), 'name': '001#002', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [-49, 2639, 3534, 4462, 1375, 334, 2531, 2912, 3333, 3007, 765, -206, 3627, 4165, -269, 4678, 3553, 206, 3802, 4127, 1583, 1152, 5217, 3070, 4376, 2298, 3206, 1929, 2037, 3213], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fde'), 'name': '001#003', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/3.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [2259, 3332, 2077, 594, 2597, 4033, 4654, 1905, 4952, 2826, 2856, 2526, -133, 585, 4639, 2090, 2765, 1579, 77, 2947, 3188, 4672, 3680, 5190, 1128, 3550, 2800, 837, 667, 4587], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fdf'), 'name': '001#004', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/4.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [3649, 3302, 407, 1898, 2720, 2002, 498, 446, 409, 2287, 3222, 2961, 4946, 214, 1099, 5146, 1003, 1507, 4549, 324, 1407, 4274, 1071, 3154, 4867, 370, 945, 2728, 417, 3852], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe0'), 'name': '001#005', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/5.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [1878, 5263, -85, 5129, 526, 911, 1358, 640, 1941, 3624, 2465, -265, 341, -43, 988, 5203, 1775, 3765, 3550, 4354, 3940, 521, 938, 3174, 5159, 5183, 193, 2658, 2753, -174], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe1'), 'name': '001#006', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/6.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [400, 1852, 4631, 532, 3460, 443, 3483, 2142, 1817, 5045, 3917, 4721, 1127, 1232, 2394, 1738, -185, 4015, 915, 1135, 5031, 1753, 1495, 22, 4129, 2319, 1982, 789, 133, 4561], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe2'), 'name': '001#007', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/7.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [3545, 1125, 3819, 2393, 2904, 403, 1801, 3848, 4333, 3100, 1498, 2074, -265, -63, 648, -62, 4633, 580, 3465, 3140, 4931, 3283, 2870, 1845, 4314, 3945, 1069, 4047, 1655, 4458], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe3'), 'name': '001#008', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/8.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [3201, 4579, 1982, 3677, 981, 4068, 2530, 4495, 729, 2857, 341, 1475, 2446, 3294, 2521, 3555, 4048, 180, 4, 4773, 1185, 4513, 666, 1535, 3310, 4022, 3833, 1118, 4616, 3800], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe4'), 'name': '001#009', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/9.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [2197, 2066, 2840, 2349, 2443, 1312, 432, -20, 213, 394, 5035, 4854, 4607, 14, 3300, 2168, 122, 1903, 2158, 1691, 2321, 2823, 4690, 3024, 3480, 2232, 1750, 93, 4826, 4676], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe5'), 'name': '001#0010', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/10.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [1977, 4710, 648, 1287, 3916, 1486, 2263, 920, 4251, 3138, 452, 3313, 2901, 3036, 3301, 354, 872, 451, 4262, 1419, 4421, 3779, -265, 968, 2053, 4024, 1894, 1672, 3632, 563], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe6'), 'name': '001#0011', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/11.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [4116, 4824, 4013, 4327, 5146, 2235, 1074, 4340, 4874, 3937, 4117, -111, 458, 157, 2256, 973, 828, 4381, 4797, 3995, 399, 5171, 253, 303, 58, 1109, 3470, 18, 4825, 4214], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe7'), 'name': '001#0012', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/12.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [4243, 1699, 2486, 3714, 5016, 3545, 4304, 4302, 242, 640, 4120, 2677, 1076, 2834, 1984, 3975, 2657, 4156, 4234, 2499, 4073, 3440, 3528, 3733, 3352, 2617, 5297, 103, 5089, 4162], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe8'), 'name': '001#0013', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/13.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [4652, 680, 3603, 778, 5123, 700, 5235, 1736, 4692, 1784, 722, 2007, 2103, 4896, 4445, 1130, 408, 3411, 1827, 5111, 2, 4051, 470, 241, 1016, 503, 2481, 4654, 3148, 1638], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fe9'), 'name': '001#0014', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/14.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [1855, 2666, 555, 1372, 5137, 2983, 1468, 5283, 645, 1631, 903, 2828, 3377, 1274, 535, 1087, 3568, 5210, 79, -69, 1091, 499, 1139, 974, 458, 4342, 3269, 3806, 88, 1440], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fea'), 'name': '001#0015', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/15.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [1759, 5241, 1820, 4005, 4807, 820, 2610, 812, 4594, 3922, 1283, 464, 3484, 2042, 4592, 3059, 1592, 4610, 4805, 777, -112, 1350, 3048, 1668, 2858, -187, 5261, 4548, 4183, 1081], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7feb'), 'name': '001#0016', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/16.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [3954, 4729, 1041, 375, 4786, 5265, 3801, 3319, 762, 4840, 2661, -266, 257, 755, 4048, 1418, 3924, 1487, 1021, 4647, 2601, 1126, 3891, 1903, 4645, 3591, 2298, 5169, 3579, 3397], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fec'), 'name': '001#0017', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/17.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [2753, 2171, 1642, 4147, 3324, 4129, 1850, 4866, 3416, 3147, -195, 2801, -199, 4501, 5020, 3362, 2485, 119, 3114, 3131, 1025, 5184, 313, 108, 4033, 4480, 4614, 3878, 5288, 3520], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fed'), 'name': '001#0018', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/18.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [404, 435, 2789, 5203, 139, 2625, 3416, 1845, 3656, 1499, 1114, 5236, 2942, 1686, 1547, 2843, 166, 3493, 3451, 3819, 2403, 1859, 1282, 471, 3731, 4060, 3763, 4203, 382, 517], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fee'), 'name': '001#0019', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/19.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [278, 3389, 2966, 4547, 919, 3058, 4392, 3390, 1387, 2644, 2655, 1074, -292, 2768, -292, 2630, 870, 5123, 3175, 2343, -136, -257, 4577, -211, 2130, 4416, 189, 2480, 1916, 906], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fef'), 'name': '001#0020', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036-output/20.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '001', 'nowPrice': [3950, 4748, 1978, 2084, 3243, 4225, 3417, 3644, 3346, 1235, 2618, 4463, -245, -4, 2148, 4784, 2999, 2827, 3950, 2966, 748, 4997, 3308, 264, 842, 3723, 1361, 95, 4362, 680], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:43:58', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.6878767013549805s
+2023-05-16 00:43:58
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+>>>2023-05-16 00:47:31
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684169250项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+-----------------------------------
+../static/upload/1684169250-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+../static/upload/1684169250-output/
+-----------------------------------
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684169250-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb359'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684168149-output/1.png', 'nowPrice': [26282, 23319, 21983, 23131, 22760, 24118, 25733, 25084, 25393, 25986, 24427, 25539, 24441, 25617, 27256, 25587, 24785, 25564, 24790, 24890, 26640, 24062, 24513, 24875, 25033, 22204, 22723, 27102, 26918, 26216], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c95'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510/1.png', 'nowPrice': [4665, 3243, 3842, 1068, 4416, 5325, 2337, 5217, 1920, 2032, 185, 2248, 1023, 3184, 1218, 3776, 2682, 227, 571, 4623, 4437, 2870, 2346, 149, 4707, 4048, 4221, 3462, 1871, 3603], 'quantity': 4, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fdb'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036/1.png', 'nowPrice': [2619, 3729, 2818, -136, 5142, 4165, -277, 4257, 4270, 1959, 4189, 5223, 3790, 4952, 4488, 1771, 1327, 1807, 4680, 4885, 1024, 857, 3788, 2188, 4, 1127, 786, 3381, 2979, 284], 'quantity': 5, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c94'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250/1.png', 'nowPrice': [5112, 1029, 3530, 4381, 3895, 2266, 3119, 2572, 939, 2132, 3193, -123, 969, 1895, 3838, 5135, 1495, 4767, 4767, 716, 4475, 1171, 2573, 1563, 1637, 3496, 3278, 1393, 209, 446], 'quantity': 2, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入10条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('6462622369675181b4244c95'), 'name': '0001#001', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [4172, 413, 3451, 3852, 3261, 3165, 653, 1275, 787, 1272, -235, 1959, 4137, 4215, 4773, -177, 4461, 2842, 4119, 3957, 4834, 3317, 4191, 2976, 4788, 3236, 4466, 2527, 4455, 1205], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c96'), 'name': '0001#002', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [893, 2284, 2696, 530, 50, 3819, 44, 2027, 1017, 2065, 4315, 2698, 3469, 1591, 838, 639, 2375, 1302, 2822, 322, 5235, 1862, 3457, 3764, 776, 3965, 2459, 2888, 2421, 5040], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c97'), 'name': '0001#003', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/3.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [273, 4838, 3948, 3546, 2737, -77, 4381, 4324, 1823, 4445, 3508, 2967, 2298, 709, 1830, 4513, 4386, 4152, 4941, 2917, 3692, 1621, 4769, 2777, 728, 1529, 2745, 4361, 3175, 3417], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c98'), 'name': '0001#004', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/4.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [1642, 1913, 3788, 2518, 1492, 1326, -40, 3437, 5029, 1150, 3644, 4426, 1159, 1776, 1825, 4565, 2888, 2659, 2798, 4154, 1124, 260, -12, 2562, 3365, 1249, 5233, 3081, -93, 1920], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c99'), 'name': '0001#005', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/5.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [54, 662, 947, 2916, 3944, 40, 4334, 4735, 145, 4222, 4186, -140, 1200, 3542, 3038, 3562, 2413, 4464, 4858, 1334, 2156, 731, 1604, 2800, 3956, 2174, 1501, 1899, 1408, 4424], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c9a'), 'name': '0001#006', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/6.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [4472, 169, 2592, 1009, 4183, 2662, 353, 3163, 4828, 1728, 1280, -124, 564, 4273, 3970, 1093, 3754, 2656, 2523, 940, 1278, -104, 4462, 2840, 1224, 4848, 4639, 2387, 214, 4511], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c9b'), 'name': '0001#007', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/7.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [-65, -282, -251, 437, 2531, 1433, 131, -239, 906, 671, 954, 698, 3667, 1415, 1200, 2063, 1674, 3282, 4832, 3905, 4019, 4890, 4601, 565, 4874, 1125, 3849, 4750, 956, 1513], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c9c'), 'name': '0001#008', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/8.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [2769, 3272, -147, 4121, 901, 3254, 3850, 1772, 1977, 3278, 3453, 3164, 4692, 1068, 1703, -34, 2090, 2435, 1380, 8, 4342, 3614, 4864, 2534, 118, 1180, -280, 341, 4003, 1535], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c9d'), 'name': '0001#009', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/9.png', 'classification': {'$oid': '6462622369675181b4244c94'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [1452, 1967, 3623, 4375, 488, 3488, 3612, 3699, 319, -148, 1716, 1352, 2359, 3131, 3802, 1512, 692, -27, 3551, 1724, 4882, -22, 279, 3853, 1868, -55, -7, 784, 2623, 2915], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c9e'), 'name': '0001#0010', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250-output/10.png', 'classification': {'$oid': '6462622369675181b4244c94'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [-90, -42, 593, 742, 1291, 4731, 3322, 4260, 4248, 4507, 3493, 4844, 2737, 1545, 280, 2788, 1620, 2770, 3644, 4287, 4623, 4280, -198, -162, 553, 1073, 2928, 5187, 4555, 2039], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:47:31', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.2964897155761719s
+2023-05-16 00:47:31
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+>>>2023-05-16 00:49:52
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684169391项目:
+当前用户选择生成【单系列】作品
+正在生成男人-2系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+-----------------------------------
+static/upload/1684169391-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+static/upload/1684169391-output/
+-----------------------------------
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684169391-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>2023-05-16 00:50:35
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684169434项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+-----------------------------------
+/static/upload/1684169434-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+/static/upload/1684169434-output/
+-----------------------------------
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684169434-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>2023-05-16 00:51:30
+>>>filepath: /www/wwwroot/www.fortis.ink/nftTools/app.py 
+filename: app.py
+>>>NFT自动化生成程序开始启动...
+>>>>>>输出配置信息
+<module 'settings' from '/home/wwwroot/www.fortis.ink/nftTools/settings.py'>
+>>>输出用户输入
+1684169489项目:
+当前用户选择生成【单系列】作品
+正在生成牛系列作品：
+>>>当前用户要生成的作品数量为：2
+>>>开始生成..
+-----------------------------------
+/static/upload/1684169489-output/
+-----------------------------------
+1.正在生成第1个作品
+-----------------------------------
+/static/upload/1684169489-output/
+-----------------------------------
+2.正在生成第2个作品
+
+当前为随机风格，当前模型可用颜色数为256个
+作品存放路径：/home/wwwroot/www.fortis.ink\output\1684169489-output
+>>>作品生成完毕...
+-----------------
+>>>开始连接MongoDB数据库...
+>>>数据库连接成功，能找到对应的表...
+>>>开始插入分类数据
+>>>用户选择了单分类，要插入一个分类
+>>>分类插入成功，共插入了1条数据
+>>>当前已成功生成的分类数据：
+{'_id': ObjectId('646258a8ed340455a8eb01e6'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684165793-output/1.png', 'nowPrice': [1119, 4283, 3204, 5505, 1086, 562, 2932, 5393, 4406, 4079, 4977, 3006, 1249, 3455, 2120, 2556, 1805, 5229, 331, 1448, 5289, 5368, 646, 3746, 3052, 3960, 117, 174, 1120, 4430], 'quantity': 10, 'batch': 1}
+{'_id': ObjectId('64625be1e050dc9b9e19e490'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167475-output/1.png', 'nowPrice': [1973, 2265, 3107, 5207, 2214, 1511, 1222, 4578, 5320, 4662, 2965, 5271, 1296, 1279, 3157, 5109, 4817, 2639, 3034, 4950, -276, 4400, -155, -193, -212, 4956, 2717, 1647, 3941, 4971], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625c2495882308929a7e49'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink/upload/output/1684167715-output/1.png', 'nowPrice': [33397, 37430, 37073, 38118, 36791, 38255, 35093, 38095, 34715, 36386, 35393, 37858, 35728, 35897, 36078, 34889, 36345, 33680, 36432, 33126, 36447, 33104, 33670, 34824, 36835, 35517, 33271, 36896, 34875, 36678], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625dd714bf30d55aaeb359'), 'name': '男人-2', 'imgUrl': 'http://www.fortis.ink/upload/output/1684168149-output/1.png', 'nowPrice': [26282, 23319, 21983, 23131, 22760, 24118, 25733, 25084, 25393, 25986, 24427, 25539, 24441, 25617, 27256, 25587, 24785, 25564, 24790, 24890, 26640, 24062, 24513, 24875, 25033, 22204, 22723, 27102, 26918, 26216], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('64625f3f55b70cf7d9de0c95'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684168510/1.png', 'nowPrice': [4665, 3243, 3842, 1068, 4416, 5325, 2337, 5217, 1920, 2032, 185, 2248, 1023, 3184, 1218, 3776, 2682, 227, 571, 4623, 4437, 2870, 2346, 149, 4707, 4048, 4221, 3462, 1871, 3603], 'quantity': 4, 'batch': 1}
+{'_id': ObjectId('6462614e7baa1e28e24f7fdb'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/static/upload/1684169036/1.png', 'nowPrice': [2619, 3729, 2818, -136, 5142, 4165, -277, 4257, 4270, 1959, 4189, 5223, 3790, 4952, 4488, 1771, 1327, 1807, 4680, 4885, 1024, 857, 3788, 2188, 4, 1127, 786, 3381, 2979, 284], 'quantity': 5, 'batch': 1}
+{'_id': ObjectId('6462622369675181b4244c94'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169250/1.png', 'nowPrice': [5112, 1029, 3530, 4381, 3895, 2266, 3119, 2572, 939, 2132, 3193, -123, 969, 1895, 3838, 5135, 1495, 4767, 4767, 716, 4475, 1171, 2573, 1563, 1637, 3496, 3278, 1393, 209, 446], 'quantity': 2, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a3'), 'name': '牛', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489/1.png', 'nowPrice': [4999, 1927, 4880, 1885, 3493, 5018, 80, 724, 1392, 1418, 3608, 3349, 3583, 1868, 988, 2172, 4524, 1191, 4554, 325, 4988, 3115, 2947, 4927, 3174, -263, -151, 1189, 1832, 2720], 'quantity': 2, 'batch': 1}
+>>>开始插入商品数据...
+>>>单系列分类商品数据
+>>>开始插入商品数据...
+>>>商品数据插入成功...共插入12条数据...
+>>>当前成功生成的商品数据！
+{'_id': ObjectId('6462631381db7a43d7ec79a4'), 'name': '0001#001', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/1.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [3727, 2201, 650, 920, 33, 1345, 3640, 3302, 3152, 1301, 4008, 5087, 475, 409, 1997, 4631, 2265, -33, 1961, -294, -187, 1283, 3901, 4823, 3135, 4553, 2634, 3020, 4017, 3383], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a5'), 'name': '0001#002', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/2.png', 'classification': {'$oid': '646258a8ed340455a8eb01e6'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [1877, 2523, 541, 784, -35, 1515, -104, 1204, 1199, 2484, 5043, 2981, 2265, 2893, 3343, 1255, 3008, 3315, 1918, 2667, 227, -290, 1356, 3017, 390, 3227, 1950, 2811, 4979, 4142], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a6'), 'name': '0001#003', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/3.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [3210, 4659, 1392, 1449, 376, 2276, 3263, 387, 632, 3067, 4678, -43, 3642, 2568, 3126, 2916, 4380, 106, 5211, 4589, 3035, 153, 5051, 606, 1033, 1913, 47, 3805, 1900, 3707], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a7'), 'name': '0001#004', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/4.png', 'classification': {'$oid': '64625c2495882308929a7e49'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [-167, 3496, 466, 450, -6, 487, 2507, 4840, 5241, 2754, 4520, 1675, 1165, 5185, 2573, 3724, 5151, 3055, 750, 362, 2548, 2682, 28, 5216, 4115, 5131, 4133, 3205, 4110, 1778], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a8'), 'name': '0001#005', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/5.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [2395, 2235, 3014, 5192, 5107, 4780, 728, 3898, 4017, 3680, -150, 314, 1062, 5289, 3040, -83, 4824, 127, 1679, 1768, 4390, 4086, 1128, 2239, 2536, 3085, 2499, 4992, 739, 1520], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79a9'), 'name': '0001#006', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/6.png', 'classification': {'$oid': '64625f3f55b70cf7d9de0c95'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [2432, 2649, 2460, 2517, 4766, 2431, 2419, 5288, 1477, 4505, 4866, 566, 2721, 1820, 4222, 2697, 2639, 1855, 3480, 287, 5056, 3752, 2417, 248, 2685, 3128, 1459, 4593, 487, 3276], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79aa'), 'name': '0001#007', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/7.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [5179, 887, 3438, 4810, 101, 3534, 4703, 3366, 2997, 2050, 1789, 4784, 993, 5129, 2908, 1868, 2072, 1737, 589, 4647, 3023, 3244, 161, 4345, 4444, 4091, 503, 97, 506, 4774], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79ab'), 'name': '0001#008', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/8.png', 'classification': {'$oid': '6462614e7baa1e28e24f7fdb'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [-16, -37, 1827, 2791, 3870, -24, 2509, 3703, 2611, 751, 2908, 4812, 2745, 1732, 3350, 779, 3292, 564, 3719, 3399, 3020, 4518, 4245, 587, 730, 5250, 4696, 5161, 3930, 2273], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79ac'), 'name': '0001#009', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/9.png', 'classification': {'$oid': '6462622369675181b4244c94'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [2564, 4456, 194, 4610, 344, -181, 3271, 3520, 2353, 3324, 2668, 1526, 3527, 2133, 2662, -283, 5225, 1674, 3674, 789, 746, 1306, 318, 818, 1406, 4752, 1887, 3769, 914, 325], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79ad'), 'name': '0001#0010', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/10.png', 'classification': {'$oid': '6462622369675181b4244c94'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [4162, 245, 3341, 4817, -260, 332, 231, -187, 3987, 1413, -16, 289, 1628, 1793, 3406, 423, 3941, 3054, 1825, 301, 4569, 850, -117, 2362, 3441, 387, 450, 3092, 5005, 2453], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79ae'), 'name': '0001#0011', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/11.png', 'classification': {'$oid': '6462631381db7a43d7ec79a3'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [2225, 5103, 3717, 1880, 5106, 288, 1753, 2188, 5111, 2766, 1764, 5125, 2994, 4550, 2712, 3133, 791, 2813, 4058, 255, 1884, -197, 1969, 4997, -65, 56, 3218, 4797, 346, 3306], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+{'_id': ObjectId('6462631381db7a43d7ec79af'), 'name': '0001#0012', 'imgUrl': 'http://www.fortis.ink:8801/upload/1684169489-output/12.png', 'classification': {'$oid': '6462631381db7a43d7ec79a3'}, 'stratPrice': 1, 'introduce': '0001', 'nowPrice': [3304, 4501, 314, 3285, 4476, -143, 1518, 4519, 939, -112, 4249, 5234, 3831, 5190, 3104, 3782, 5133, 1430, 4589, 155, 1878, 1193, -13, 1894, 2859, 4885, 3440, -119, 3424, 339], 'config': {'starts': 1, 'end': 5001, 'space': 300, 'add': 0}, 'isShow': True, 'userSell': [], 'date': '2023-05-16 00:51:31', 'SWI': True, 'batch': 1}
+>>>关闭MongoDB连接
+>>>本程序执行完毕,共用时：0.2917773723602295s
+2023-05-16 00:51:31
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
